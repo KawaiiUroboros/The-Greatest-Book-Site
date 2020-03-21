@@ -8,7 +8,7 @@
 <head>
     <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
     <title>Издательство "Профессиональная литература"</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="~/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <script src="https://kit.fontawesome.com/92990b2768.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
@@ -24,56 +24,13 @@
         <div class="logo">
             <img src="logo.png">
         </div>
-
-    <div class="logo">
-        <img src="logo.png" alt = "logo">
-    </div>
-
-
+        
         <div class="reg">
             <button type="button" class="btn">Войти</button>
             <button type="button" class="btn">Зарегистрироваться</button>
         </div>
-
-
-
+        
         <div class="menu">
-            <ul>
-                <li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
-                <li><i class="fas fa-book"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Книги</a></li>
-                <li><i class="fas fa-paragraph"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Об издательстве</a></li>
-                <li><i class="fas fa-map-signs"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Where">Контакты</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="main">
-        <div class="cont">
-            <section class="page section1">
-
-                <h1>СЕРИЯ PROFESSIONAL</h1>
-
-                @*<h1>@Model.Products</h1>
-                @foreach (var product in Model.Products)
-                {
-                    <div class="block1"><img src="~/2.jpg" alt=""> </div>
-                }*@
-
-            </section>
-
-            <section class="page section2">
-                <h1>first2</h1>
-            </section>
-
-            <section class="page section3">
-                <h1>first3</h1>
-            </section>
-
-            <section class="page section4">
-                <h1>firs5t</h1>
-            </section>
-        </div>
-=======
-    <div class="menu">
         <ul>
             <li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
             <li><i class="fas fa-book"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Books">Книги</a></li>
@@ -83,33 +40,33 @@
     </div>
 </div>
 <div class="main">
-    <div class="cont">
-        <section class="page section1">
+<div class="cont">
+    <section class="page section1">
 				
-            <h1>СЕРИЯ PROFESSIONAL</h1>
-            <div class="block1"><img src="1.jpg" alt=""  ></div>
-            <div class="block1"><img src="2.jpg" alt=""  ></div>
-            <div class="block1"><img src="3.jpg" alt=""  ></div>
-        </section>
+        <h1>СЕРИЯ PROFESSIONAL</h1>
+        <div class="block1"><img src="1.jpg" alt=""  ></div>
+        <div class="block1"><img src="2.jpg" alt=""  ></div>
+        <div class="block1"><img src="3.jpg" alt=""  ></div>
+    </section>
 
-        <section class="page section2">
-            <h1>СЕРИЯ PROFESSIONAL</h1>
-            <div class="block1"><img src="4.jpg" alt=""  ></div>
-            <div class="block1"><img src="5.jpg" alt=""  ></div>
-        </section>
+    <section class="page section2">
+        <h1>СЕРИЯ PROFESSIONAL</h1>
+        <div class="block1"><img src="4.jpg" alt=""  ></div>
+        <div class="block1"><img src="5.jpg" alt=""  ></div>
+    </section>
 
-        <section class="page section3">
-            <h1>СЕРИЯ PROFESSIONAL</h1>
-            <div class="block1"><img src="6.jpg" alt=""  ></div>
-            <div class="block1"><img src="7.jpg" alt=""  ></div>
-        </section>
+    <section class="page section3">
+        <h1>СЕРИЯ PROFESSIONAL</h1>
+        <div class="block1"><img src="6.jpg" alt=""  ></div>
+        <div class="block1"><img src="7.jpg" alt=""  ></div>
+    </section>
 
-        <section class="page section4">
-            <h1>СЕРИЯ PROFESSIONAL</h1>
-            <div class="block1"><img src="8.jpg" alt=""  ></div>
-        </section>
->>>>>>> 13166f127037a1d0b763c57c5fb5818544954acc
-    </div>
+    <section class="page section4">
+        <h1>СЕРИЯ PROFESSIONAL</h1>
+        <div class="block1"><img src="8.jpg" alt=""  ></div>
+    </section>
+</div>
+</div>
 
 
 
