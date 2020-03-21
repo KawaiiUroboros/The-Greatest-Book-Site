@@ -19,7 +19,7 @@ namespace higher_school_of_hooyomics.Controllers
         }
         public IActionResult Index()
         {
-            
+
             return View();
         }
     }
