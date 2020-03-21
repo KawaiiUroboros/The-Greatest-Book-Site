@@ -22,7 +22,7 @@
         </div>
 
         <div class="reg">
-            <button href type="button" class="btn">Войти</button>
+            <button type="button" class="btn">Войти</button>
             <button type="button" class="btn">Зарегистрироваться</button>
         </div>
 
@@ -30,10 +30,10 @@
 
         <div class="menu">
             <ul>
-                <li><i class="fas fa-home"></i><a href="#">Главная</a></li>
+                <li><i class="fas fa-home"></i><a asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
                 <li><i class="fas fa-book"></i><a href="#">Книги</a></li>
-                <li><i class="fas fa-paragraph"></i><a href="#">Об издательстве</a></li>
-                <li><i class="fas fa-map-signs"></i><a href="#">Контакты</a></li>
+                <li><i class="fas fa-paragraph"></i><a asp-area="" asp-controller="Home" asp-action="Where">Об издательстве</a></li>
+                <li><i class="fas fa-map-signs"></i><a asp-area="" asp-controller="Home" asp-action="Contacts">Контакты</a></li>
             </ul>
         </div>
     </div>
@@ -41,6 +41,7 @@
         <div class="cont">
             <section class="page section1">
                 <h1>first</h1>
+                <button  asp-area="" asp-controller="TextAnalyzer" asp-action="Index" data ="df"></button>
             </section>
 
             <section class="page section2">

@@ -21,6 +21,12 @@
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.TextAnalytics" Version="1.0.0-preview.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
   <ProjectExtensions><VisualStudio><UserProperties wwwroot_4jquery-mousewheel-3_11_112_4bower_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 
