@@ -3,5 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="92990b2768" level="application" />
+    <orderEntry type="library" name="jquery-2.1.1" level="application" />
   </component>
 </module>

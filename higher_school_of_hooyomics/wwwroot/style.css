@@ -131,22 +131,23 @@
     background-size: 110%;
 }
 
-.section1 img
+.cont img
 {
     position: inherit;
     width: 50%;
 }
 
-.section1 h1
+.cont h1
 {
     color: #FAEBD7;
     position: inherit;
     top: 30%;
-    left: 32%;
+    left: 25%;
     width: 50%;
     font-size: 50px;
     font-family: roboto;
     font-weight: bold;
+    text-align: center;
 }
 
 .section2
@@ -212,4 +213,38 @@
     width: 30%;
     left: 10%;
     margin-top: 20%;
+}
+
+
+.about
+{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: roboto;
+}
+
+.block2
+{
+    display: inline-block;
+    background-color: black;
+    position: inherit;
+    width: 20%;
+    left: 10%;
+    margin-top: 20%;
+}
+
+
+.map
+{
+    position: inherit;
+    margin: 5%;
+    display: inline-block;
+}
+
+.adress
+{
+    font-family: roboto;
+    margin: 5%;
+    display: inline-block;
 }

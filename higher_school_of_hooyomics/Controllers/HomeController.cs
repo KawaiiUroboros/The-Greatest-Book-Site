@@ -35,6 +35,11 @@ namespace higher_school_of_hooyomics.Controllers
         {
             return View();
         }
+
+        public IActionResult Books()
+        {
+            return View();
+        }
         
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
