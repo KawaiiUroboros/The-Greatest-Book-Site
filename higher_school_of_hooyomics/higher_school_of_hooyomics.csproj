@@ -4,6 +4,23 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="wwwroot\jquery-mousewheel-3.1.12\.idea\encodings.xml" />
+    <Content Include="wwwroot\jquery-mousewheel-3.1.12\.idea\inspectionProfiles\Project_Default.xml" />
+    <Content Include="wwwroot\jquery-mousewheel-3.1.12\.idea\jsLinters\jshint.xml" />
+    <Content Include="wwwroot\jquery-mousewheel-3.1.12\.idea\misc.xml" />
+    <Content Include="wwwroot\jquery-mousewheel-3.1.12\.idea\modules.xml" />
+    <Content Include="wwwroot\jquery-mousewheel-3.1.12\.idea\workspace.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\jquery-mousewheel-3.1.12\.idea\jquery-mousewheel-3.1.12.iml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
 
 
 </Project>
