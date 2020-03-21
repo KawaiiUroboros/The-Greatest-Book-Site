@@ -8,7 +8,7 @@
 	<script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
 
 	<title>Издательство "Профессиональная литература"</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="site.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/92990b2768.js" crossorigin="anonymous"></script>
 	<script src="main.js"></script>
@@ -34,10 +34,10 @@
 
 		<div class="menu">
 			<ul>
-				<li><i class="fas fa-home"></i><a href="index.html">Главная</a></li>
-				<li><i class="fas fa-book"></i><a href="#">Книги</a></li>
-				<li><i class="fas fa-paragraph"></i><a href="contacts.html">Об издательстве</a></li>
-				<li><i class="fas fa-map-signs"></i><a href="where.html">Контакты</a></li>
+				<li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
+				<li><i class="fas fa-book"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Книги</a></li>
+				<li><i class="fas fa-paragraph"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Об издательстве</a></li>
+				<li><i class="fas fa-map-signs"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Where">Контакты</a></li>
 			</ul>
 		</div>
 	</div>
