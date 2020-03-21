@@ -3,66 +3,65 @@
 @{
 }
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+	<script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
 
-    <title>Издательство "Профессиональная литература"</title>
-    <link rel="stylesheet" type="text/css" href="site.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/92990b2768.js" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-    <script src="jquery-mousewheel-3.1.12/jquery.mousewheel.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-
-
-
+	<title>Об издательстве</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/92990b2768.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+	<script src="jquery-mousewheel-3.1.12/jquery.mousewheel.js"></script>
+	
+	
+	
+	
 </head>
 <body>
-    <div class="top">
+<div class="top">
 
-        <div class="logo">
-            <img src="logo.png">
-        </div>
+	<div class="logo">
+	<img src="logo.png" alt = "logo">
+	</div>
 
-        <div class="reg">
-            <button type="button" class="btn">Войти</button>
-            <button type="button" class="btn">Зарегистрироваться</button>
-        </div>
+	<div class="reg">
+		<button type="button" class="btn">Войти</button>
+		<button type="button" class="btn">Зарегистрироваться</button>
+	</div>
 
 
+	<div class="menu">
+		<ul>
+			<li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
+			<li><i class="fas fa-book"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Books">Книги</a></li>
+			<li><i class="fas fa-paragraph"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Об издательстве</a></li>
+			<li><i class="fas fa-map-signs"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Where">Контакты</a></li>
+		</ul>
+	</div>
+</div>
 
-        <div class="menu">
-            <ul>
-                <li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
-                <li><i class="fas fa-book"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Книги</a></li>
-                <li><i class="fas fa-paragraph"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Об издательстве</a></li>
-                <li><i class="fas fa-map-signs"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Where">Контакты</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="glav">
-
-        <h1>Издательство <br>"Профессиональная литература"</h1>
-        <h4> Миссия издательства </h4>
-        <p>Проектный подход к каждому изданию для достижения максимальных результатов </p>
-        <h4> Цели издательства </h4>
-        <ol>
-            <li>Издание как способ реализации и максимизации знаний, навыков и умений.</li>
-            <li>Издание знаний и образовательных продуктов.</li>
-            <li>Высокое качество издания.</li>
-            <li>Профессиональные знания от профессионалов для профессионалов и тех, кто хочет стать профессионалом.</li>
-            <li>Отбор и рекомендации изданий (книг, видеокурсов, образовательных проектов и др.) для своих читателей.</li>
-            <li>Предоставление дополнительных сервисов своим читателям.</li>
-        </ol>
-        <h4> История издательства </h4>
-        Издательство «Профессиональная литература» создано в 2010 году и специализируется на реализации уникальных издательских проектах: подготовке уникальных изданий, которые призваны внести значительный вклад в развитие как отдельных специалистов, так целых профессиональных сообществ.
-        Изначально издательство «Профессиональная Литература» ориентировалось на издания компьютерной тематики, бизнес-тематики. На данный момент спектр издания ограничен лишь представлением о нужности темы, качестве и профессионализму изложения материала.
-        Издательство «Профессиональная литература» постоянно сотрудничает с нашими партнерами крупнейшими зарубежными издательствами O’Reilly, Addison-Wesley, Pearson и другими.
-        Издательство «Профессиональная литература» постоянно участвует в крупнейших международных книжных и профессиональных, технологических выставках. В качестве книжных выставках можно отметить участие в крупнейшей в мире книжной ярмарке Frankfurt Book Fair: мы принимали участие в  Frankfurt Book Fair 2014, Frankfurt Book Fair 2016.
-    </div>
-
+<div class="glav">
+	<div class="about">
+	      <h1>Издательство <br>"Профессиональная литература"</h1>
+                            <h4> Миссия издательства </h4>
+                            <p>Проектный подход к каждому изданию для достижения максимальных результатов </p>
+                            <h4> Цели издательства </h4>
+                            <ol>
+                                <li>Издание как способ реализации и максимизации знаний, навыков и умений.</li>
+                                <li>Издание знаний и образовательных продуктов.</li>
+                                <li>Высокое качество издания.</li>
+                                <li>Профессиональные знания от профессионалов для профессионалов и тех, кто хочет стать профессионалом.</li>
+                                <li>Отбор и рекомендации изданий (книг, видеокурсов, образовательных проектов и др.) для своих читателей.</li>
+                                <li>Предоставление дополнительных сервисов своим читателям.</li>
+                            </ol>
+                            <h4> История издательства </h4>
+                            Издательство «Профессиональная литература» создано в 2010 году и специализируется на реализации уникальных издательских проектах: подготовке уникальных изданий, которые призваны внести значительный вклад в развитие как отдельных специалистов, так целых профессиональных сообществ.
+                            Изначально издательство «Профессиональная Литература» ориентировалось на издания компьютерной тематики, бизнес-тематики. На данный момент спектр издания ограничен лишь представлением о нужности темы, качестве и профессионализму изложения материала.
+                            Издательство «Профессиональная литература» постоянно сотрудничает с нашими партнерами крупнейшими зарубежными издательствами O’Reilly, Addison-Wesley, Pearson и другими.
+                            Издательство «Профессиональная литература» постоянно участвует в крупнейших международных книжных и профессиональных, технологических выставках. В качестве книжных выставках можно отметить участие в крупнейшей в мире книжной ярмарке Frankfurt Book Fair: мы принимали участие в  Frankfurt Book Fair 2014, Frankfurt Book Fair 2016.
+</div>
+</div>
 
 </body>
 </html>
