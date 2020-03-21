@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agehao\\source\\repos\\higher_school_of_hooyomics\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj": {}
+    "C:\\Users\\agehao\\higher_school_of_hooyomics-higher_school_of_hooyomics-\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agehao\\source\\repos\\higher_school_of_hooyomics\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj": {
+    "C:\\Users\\agehao\\higher_school_of_hooyomics-higher_school_of_hooyomics-\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agehao\\source\\repos\\higher_school_of_hooyomics\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj",
+        "projectUniqueName": "C:\\Users\\agehao\\higher_school_of_hooyomics-higher_school_of_hooyomics-\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj",
         "projectName": "higher_school_of_hooyomics",
-        "projectPath": "C:\\Users\\agehao\\source\\repos\\higher_school_of_hooyomics\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj",
+        "projectPath": "C:\\Users\\agehao\\higher_school_of_hooyomics-higher_school_of_hooyomics-\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj",
         "packagesPath": "C:\\Users\\agehao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agehao\\source\\repos\\higher_school_of_hooyomics\\higher_school_of_hooyomics\\obj\\",
+        "outputPath": "C:\\Users\\agehao\\higher_school_of_hooyomics-higher_school_of_hooyomics-\\higher_school_of_hooyomics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
