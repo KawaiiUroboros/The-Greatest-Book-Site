@@ -18,7 +18,7 @@ namespace higher_school_of_hooyomics.Models
         public int Pages { get; set; }
         public string Title { get; set; }
         public int Year { get; set; }
-        public string[] Tags { get; set; }
+        public List<string> Tags { get; set; }
         public override string ToString() => "";
 
     }

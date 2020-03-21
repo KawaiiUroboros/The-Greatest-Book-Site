@@ -59,7 +59,6 @@ C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_sc
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.RazorTargetAssemblyInfo.cache

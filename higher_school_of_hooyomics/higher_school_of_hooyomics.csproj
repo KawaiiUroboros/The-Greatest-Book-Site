@@ -18,9 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties wwwroot_4jquery-mousewheel-3_11_112_4bower_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 
 
