@@ -20,7 +20,6 @@ C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_sc
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\higher_school_of_hooyomics.TagHelpers.input.cache
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\higher_school_of_hooyomics.TagHelpers.output.cache
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\higher_school_of_hooyomics.RazorCoreGenerate.cache
-C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -33,3 +32,4 @@ C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_sc
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\higher_school_of_hooyomics.dll
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\higher_school_of_hooyomics.pdb
 C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\higher_school_of_hooyomics.csproj.CopyComplete
+C:\Users\agehao\higher_school_of_hooyomics-higher_school_of_hooyomics-\higher_school_of_hooyomics\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
