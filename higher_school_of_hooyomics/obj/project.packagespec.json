@@ -28,6 +28,20 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Azure.AI.TextAnalytics": {
+          "target": "Package",
+          "version": "[1.0.0-preview.3, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[3.1.1, )"
+        },
+        "WindowsAzure.Storage": {
+          "target": "Package",
+          "version": "[9.3.3, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",
