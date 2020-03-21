@@ -2,7 +2,7 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-$(document).ready(function () {
+$(document).ready(function() {
 
 
 	var
@@ -13,27 +13,29 @@ $(document).ready(function () {
 
 	$('.page:first-child').addClass('active');
 
-	$('body').on('mousewheel', function (event) {
+	$('body').on('mousewheel',function(event){
 
 		console.log(event.deltaY);
 
 		var
-			activepage = pages.filter('.active');
+			activePage = pages.filter('.active');
 
 
 		if (!inscroll) {
 			inscroll = true;
 
 
-			if (event.deltaY > 0) {
-
-				if (activepage.prev().length) {
+			if (event.deltaY > 0)
+			{
+				if (activePage.prev().length)
+				{
 					screen--;
 				}
-
 			}
-			else {
-				if (activepage.next().length) {
+			else
+			{
+				if (activePage.next().length)
+				{
 					screen++;
 				}
 			}
@@ -47,11 +49,11 @@ $(document).ready(function () {
 
 		pages.eq(screen).addClass('active').siblings().removeClass('active');
 
-		container.css('top', position);
+		container.css('top',position);
 
 
 
-		setTimeout(function () {
+		setTimeout(function(){
 			inscroll = false;
 		}, 300);
 
