@@ -43,6 +43,7 @@
           <e p="Home" t="Include">
             <e p="Contacts.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
+            <e p="Index.cshtml.cs" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
             <e p="Where.cshtml" t="Include" />
           </e>
@@ -52,12 +53,21 @@
           </e>
         </e>
         <e p="wwwroot" t="Include">
+          <e p="1.jpg" t="Include" />
+          <e p="2.jpg" t="Include" />
+          <e p="3.jpg" t="Include" />
+          <e p="4.jpg" t="Include" />
+          <e p="5.jpg" t="Include" />
+          <e p="6.jpg" t="Include" />
+          <e p="7.jpg" t="Include" />
+          <e p="8.jpg" t="Include" />
           <e p="favicon.ico" t="Include" />
           <e p="fon-1.jpg" t="Include" />
           <e p="fon1.jpg" t="Include" />
           <e p="fon2.png" t="Include" />
           <e p="fon3.png" t="Include" />
           <e p="fon4.jpg" t="Include" />
+          <e p="fon5.png" t="Include" />
           <e p="jquery-mousewheel-3.1.12" t="Include">
             <e p=".gitignore" t="Include" />
             <e p=".jshintrc" t="Include" />
