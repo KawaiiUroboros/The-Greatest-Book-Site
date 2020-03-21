@@ -101,7 +101,6 @@ C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_
 C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.csproj.CopyComplete
 C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Home\Contacts.cshtml.g.cs
 C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Home\Where.cshtml.g.cs
-C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.csprojAssemblyReference.cache
 C:\Users\agehao\hak\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\agehao\hak\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\agehao\hak\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -180,3 +179,5 @@ C:\Users\agehao\hak\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Azure.A
 C:\Users\agehao\hak\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Azure.Core.dll
 C:\Users\agehao\hak\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Home\Books.cshtml.g.cs
+C:\Users\agehao\hak\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.csprojAssemblyReference.cache

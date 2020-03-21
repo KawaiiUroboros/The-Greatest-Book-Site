@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,18 +19,26 @@ namespace ContosoCrafts.WebSite.Services
 
         private string JsonFileName
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "books.json"); }
+            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "books.json"); }
         }
 
         public IEnumerable<Product> GetProducts()
         {
             using(var jsonFileReader = File.OpenText(JsonFileName))
             {
-                return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
+                var check = JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
+                        IgnoreNullValues = true,
                         PropertyNameCaseInsensitive = true
-                    });
+                    }) ;
+               
+                return check;
+                //return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
+                //    new JsonSerializerOptions
+                //    {
+                //        PropertyNameCaseInsensitive = true
+                //    });
             }
         }
 
@@ -53,7 +62,6 @@ namespace ContosoCrafts.WebSite.Services
                 JsonSerializer.Serialize<IEnumerable<Product>>(
                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
                     {
-                        SkipValidation = true,
                         Indented = true
                     }), 
                     products

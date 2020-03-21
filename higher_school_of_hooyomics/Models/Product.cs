@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace higher_school_of_hooyomics.Models
@@ -19,7 +20,7 @@ namespace higher_school_of_hooyomics.Models
         public string Title { get; set; }
         public int Year { get; set; }
         public List<string> Tags { get; set; }
-        public override string ToString() => "";
+        public override string ToString() => JsonSerializer.Serialize(this);
 
     }
 }
