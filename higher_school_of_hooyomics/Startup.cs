@@ -9,7 +9,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using higher_school_of_hooyomics.Services;
-using ContosoCrafts.WebSite.Services;
 namespace higher_school_of_hooyomics
 {
     public class Startup
@@ -24,9 +23,9 @@ namespace higher_school_of_hooyomics
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews();
             services.AddTransient<JsonFileProductService>();
             services.AddSingleton<TextAnalyzerService>();
-            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,7 +52,7 @@ namespace higher_school_of_hooyomics
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}") ;
             });
         }
     }
