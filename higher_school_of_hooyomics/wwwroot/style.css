@@ -237,8 +237,7 @@
 {
     display: inline-block;
     background-color: black;
-    min-height:400px;
-    min-width:200px;
+   
     position: inherit;
     width: 20%;
     left: 10%;

@@ -44,12 +44,12 @@
     </div>
     <div class="main">
         <div class="cont">
-            @for (int section = 0; section < 4; section++)
+            @for (int section = 1; section <= 4; section++)
             {
                 <section class="page section1">
-                    @for (int div = 0; div < 6; div++)
+                    @for (int div = 1; div <= 6; div++)
                     {
-                        <div class="block2" ><img src="@Model.Products[section*div].Image" height="400" width="200" /></div>
+                        <div class="block2" ><img src="@Model.Products[section-1+div].Image" /></div>
                     }
                 </section>
             }
