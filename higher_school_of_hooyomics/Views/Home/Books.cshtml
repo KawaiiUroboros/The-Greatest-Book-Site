@@ -51,7 +51,10 @@
                 <section class="page section@(section)">
                     @for (int div = 1; div <= 6; div++)
                     {
-                        <div class="block2" ><img src="@Model.Products[section-1+div].Image" /></div>
+                        <div class="block2" >
+                            <img src="@Model.Products[section-1+div].Image" />
+                            <h1>@Model.Products[section-1+div].Title</h1>
+                    </div>
                     }
                 </section>
             }
