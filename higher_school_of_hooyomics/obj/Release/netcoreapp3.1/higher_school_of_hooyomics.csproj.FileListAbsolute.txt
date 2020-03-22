@@ -269,7 +269,6 @@ C:\Users\agehao\proekt\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\ru\M
 C:\Users\agehao\proekt\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\agehao\proekt\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\agehao\proekt\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.csprojAssemblyReference.cache
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\staticwebassets\higher_school_of_hooyomics.StaticWebAssets.Manifest.cache
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\staticwebassets\higher_school_of_hooyomics.StaticWebAssets.xml
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.MvcApplicationPartsAssemblyInfo.cache
@@ -294,3 +293,5 @@ C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\high
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.csproj.CopyComplete
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.dll
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.pdb
+C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.csprojAssemblyReference.cache
+C:\Users\agehao\proekt\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Views\Home\books.json

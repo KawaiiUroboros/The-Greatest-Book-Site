@@ -17,7 +17,7 @@ namespace higher_school_of_hooyomics.Services
 
         private string JsonFileName
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "books.json"); }
+            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "products.json"); }
         }
 
         public IEnumerable<Product> GetProducts()

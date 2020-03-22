@@ -22,7 +22,7 @@ namespace higher_school_of_hooyomics.Controllers
 
         public IActionResult Index()
         {
-            
+
             return View();
         }
 
@@ -41,7 +41,7 @@ namespace higher_school_of_hooyomics.Controllers
 
         public IActionResult Books()
         {
-            var model = new HomeViewModel() { Products = _JsonFileProductService.GetProducts() };
+            var model = new BookViewModel() { Products = _JsonFileProductService.GetProducts() };
             return View(model);
         }
         
