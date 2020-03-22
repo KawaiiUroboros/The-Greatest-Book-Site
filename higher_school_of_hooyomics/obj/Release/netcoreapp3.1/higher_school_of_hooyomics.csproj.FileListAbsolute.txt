@@ -295,3 +295,5 @@ C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\high
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.pdb
 C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\higher_school_of_hooyomics.csprojAssemblyReference.cache
 C:\Users\agehao\proekt\higher_school_of_hooyomics\bin\Release\netcoreapp3.1\Views\Home\books.json
+C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\agehao\proekt\higher_school_of_hooyomics\obj\Release\netcoreapp3.1\Razor\Views\Home\SignUp.cshtml.g.cs

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace higher_school_of_hooyomics.Models
 {
-    public class BookViewModel
+    public class BooksViewModel
     {
        public IEnumerable<Product> Products { get; set; }
 
