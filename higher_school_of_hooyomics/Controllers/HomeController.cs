@@ -3,24 +3,27 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using higher_school_of_hooyomics.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using higher_school_of_hooyomics.Models;
-
+using higher_school_of_hooyomics.Views.Home;
 namespace higher_school_of_hooyomics.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        JsonFileProductService _JsonFileProductService;
+        public HomeController(JsonFileProductService jsonFileProductService):base()
         {
-            _logger = logger;
+            _JsonFileProductService = jsonFileProductService;
         }
+
+    
 
         public IActionResult Index()
         {
-            return View();
+            var model = new HomeViewModel() { Products = new List<Product>() { new Product() { Description = "dfg" } } }; //_JsonFileProductService.GetProducts() };
+            return View(model);
         }
 
         public IActionResult Privacy()

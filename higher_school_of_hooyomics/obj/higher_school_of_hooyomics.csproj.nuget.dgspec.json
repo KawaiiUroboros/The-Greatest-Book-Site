@@ -1,28 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/higher_school_of_hooyomics.csproj": {}
+    "C:\\Users\\agehao\\proekt\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj": {}
   },
   "projects": {
-    "/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/higher_school_of_hooyomics.csproj": {
+    "C:\\Users\\agehao\\proekt\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/higher_school_of_hooyomics.csproj",
+        "projectUniqueName": "C:\\Users\\agehao\\proekt\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj",
         "projectName": "higher_school_of_hooyomics",
-        "projectPath": "/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/higher_school_of_hooyomics.csproj",
-        "packagesPath": "/Users/artemsnatenkov/.nuget/packages/",
-        "outputPath": "/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/obj/",
+        "projectPath": "C:\\Users\\agehao\\proekt\\higher_school_of_hooyomics\\higher_school_of_hooyomics.csproj",
+        "packagesPath": "C:\\Users\\agehao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\agehao\\proekt\\higher_school_of_hooyomics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/artemsnatenkov/.config/NuGet/NuGet.Config"
+          "C:\\Users\\agehao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

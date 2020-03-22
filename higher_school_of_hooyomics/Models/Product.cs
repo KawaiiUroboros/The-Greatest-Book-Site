@@ -1,26 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace higher_school_of_hooyomics.Models
 {
     public class Product
     {
-        public string Author { get; set; }
+        public string Id { get; set; }
+        public string Maker { get; set; }
 
-        public string Country { get; set; }
-
-        public Uri ImageLink { get; set; }
-
-        public string Language { get; set; }
-
-        public int Pages { get; set; }
+        [JsonPropertyName("img")]
+        public string Image { get; set; }
+        public string Url { get; set; }
         public string Title { get; set; }
-        public int Year { get; set; }
-        public List<string> Tags { get; set; }
-        public override string ToString() => JsonSerializer.Serialize(this);
+        public string Description { get; set; }
+        public int[] Ratings { get; set; }
+
+        public override string ToString() => JsonSerializer.Serialize<Product>(this);
+
 
     }
 }

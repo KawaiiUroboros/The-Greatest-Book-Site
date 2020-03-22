@@ -1,14 +1,12 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using higher_school_of_hooyomics.Models;
 using Microsoft.AspNetCore.Hosting;
-
-namespace ContosoCrafts.WebSite.Services
+using higher_school_of_hooyomics.Models;
+namespace higher_school_of_hooyomics.Services
 {
-   public class JsonFileProductService
+    public class JsonFileProductService
     {
         public JsonFileProductService(IWebHostEnvironment webHostEnvironment)
         {
@@ -19,26 +17,22 @@ namespace ContosoCrafts.WebSite.Services
 
         private string JsonFileName
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "books.json"); }
+            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "products.json"); }
         }
 
         public IEnumerable<Product> GetProducts()
         {
-            using(var jsonFileReader = File.OpenText(JsonFileName))
+            using (var jsonFileReader = File.OpenText(JsonFileName))
             {
-                var check = JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
+            
+
+                var v =  JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
-                        IgnoreNullValues = true,
                         PropertyNameCaseInsensitive = true
-                    }) ;
-               
-                return check;
-                //return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
-                //    new JsonSerializerOptions
-                //    {
-                //        PropertyNameCaseInsensitive = true
-                //    });
+                    });
+                System.Console.WriteLine(v.First().Description);
+                return v;
             }
         }
 
@@ -46,24 +40,25 @@ namespace ContosoCrafts.WebSite.Services
         {
             var products = GetProducts();
 
-            //if(products.First(x => x.Id == productId).Ratings == null)
-            //{
-            //    products.First(x => x.Id == productId).Ratings = new int[] { rating };
-            //}
-            //else
-            //{
-            //    var ratings = products.First(x => x.Id == productId).Ratings.ToList();
-            //    ratings.Add(rating);
-            //    products.First(x => x.Id == productId).Ratings = ratings.ToArray();
-            //}
+            if (products.First(x => x.Id == productId).Ratings == null)
+            {
+                products.First(x => x.Id == productId).Ratings = new int[] { rating };
+            }
+            else
+            {
+                var ratings = products.First(x => x.Id == productId).Ratings.ToList();
+                ratings.Add(rating);
+                products.First(x => x.Id == productId).Ratings = ratings.ToArray();
+            }
 
-            using(var outputStream = File.OpenWrite(JsonFileName))
+            using (var outputStream = File.OpenWrite(JsonFileName))
             {
                 JsonSerializer.Serialize<IEnumerable<Product>>(
                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
                     {
+                        SkipValidation = true,
                         Indented = true
-                    }), 
+                    }),
                     products
                 );
             }
