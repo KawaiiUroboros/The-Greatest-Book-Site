@@ -23,7 +23,6 @@ namespace higher_school_of_hooyomics.Services
             List<string> tags = new List<string>();
             var response = client.ExtractKeyPhrases(text);
          
-            Console.WriteLine("Key phrases:");
 
             foreach (string keyphrase in response.Value)
             {

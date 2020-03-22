@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using higher_school_of_hooyomics.Models;
 using higher_school_of_hooyomics.Services;
 namespace higher_school_of_hooyomics.Controllers
 {
@@ -19,8 +20,8 @@ namespace higher_school_of_hooyomics.Controllers
         }
         public IActionResult Index()
         {
-            //var model = _textAnalyzerService.AnalyzeText();
-            return View();
+            var model = new BooksViewModel() { Tags = _textAnalyzerService.AnalyzeText("My cat is vegeterian") };
+            return View(model);
         }
     }
 }

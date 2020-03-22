@@ -25,15 +25,21 @@
         <div class="logo">
             <img src="~/logo.png">
         </div>
-
+        <div class="poisk">
+            <form action="URL">
+                <textarea style="display: block; position: inherit; border: 1px gray; " name="message" cols="30" rows="2"></textarea>
+                <input style="left: 35%; margin: 3%; position:relative; border-color: gray; border-radius: 10px;" type="button" name="" value="ПОИСК">
+            </form>
+        </div>
         <div class="reg">
             <button type="button" class="btn"><a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Login">Войти</a></button>
             <button type="button" class="btn"><a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="SignUp">Зарегистрироваться</a></button>
         </div>
 
 
+        
         <div>
-             
+
         </div>
         <div class="menu">
             <ul>
@@ -44,6 +50,12 @@
             </ul>
         </div>
     </div>
+    <div>
+        @foreach(var i in Model.Tags)
+        {
+            <h1>@i</h1>
+        }
+    </div>
     <div class="main">
         <div class="cont">
             @for (int section = 1; section <= 4; section++)
@@ -53,7 +65,7 @@
                     {
                         <div class="block2" >
                             <img src="@Model.Products[section-1+div].Image" />
-                            <h1>@Model.Products[section-1+div].Title</h1>
+                            <p>@Model.Products[section-1+div].Title</p>
                     </div>
                     }
                 </section>

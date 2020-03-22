@@ -8,6 +8,7 @@ namespace higher_school_of_hooyomics.Models
     public class BooksViewModel
     {
        public List<Product> Products { get; set; }
+        public List<string> Tags { get; set; }
 
     }
 }

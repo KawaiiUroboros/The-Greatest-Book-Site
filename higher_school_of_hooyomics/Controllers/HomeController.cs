@@ -12,9 +12,11 @@ namespace higher_school_of_hooyomics.Controllers
 {
     public class HomeController : Controller
     {
+        TextAnalyzerService _TextAnalyzerService;
         JsonFileProductService _JsonFileProductService;
-        public HomeController(JsonFileProductService jsonFileProductService):base()
+        public HomeController(JsonFileProductService jsonFileProductService, TextAnalyzerService textAnalyzerService) :base()
         {
+            _TextAnalyzerService = textAnalyzerService;
             _JsonFileProductService = jsonFileProductService;
         }
 
@@ -41,7 +43,7 @@ namespace higher_school_of_hooyomics.Controllers
 
         public IActionResult Books()
         {
-            var model = new BooksViewModel() { Products = _JsonFileProductService.GetProducts().ToList() };
+            var model = new BooksViewModel() { Products = _JsonFileProductService.GetProducts().ToList() , Tags = _TextAnalyzerService.AnalyzeText("My cat is vegeterian") };
             return View(model);
         }
 

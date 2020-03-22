@@ -233,16 +233,37 @@
     font-family: roboto;
 }
 
-.block2
-{
+.block2 {
     display: inline-block;
-    background-color: black;
-   
     position: inherit;
     width: 20%;
-    left: 10%;
-    margin-top: 20%;
+    height: 20%;
+    left: 11%;
+    margin-top: 22%;
+    transition: 0.5s;
 }
+
+
+    .block2:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .block2 img {
+        position: inherit;
+        width: 80%;
+        height: 170%;
+        bottom: 12%;
+    }
+
+    .block2 p {
+        position: inherit;
+        background-color: white;
+        background-size: 60%;
+        text-align: center;
+        top: -3%;
+        font-family: roboto;
+        font-weight: bold;
+    }
 
 
 .map
@@ -257,4 +278,9 @@
     font-family: roboto;
     display: inline-block;
     padding-left: 10%;
+}
+.poisk {
+    position: inherit;
+    left: 40%;
+    top: 5%;
 }
