@@ -1,4 +1,4 @@
-@page
+
 @model higher_school_of_hooyomics.Models.BooksViewModel
 
 @{
@@ -7,80 +7,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
 
-	<title>Книги</title>
-	<link rel="stylesheet" type="text/css" href="~/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/92990b2768.js" crossorigin="anonymous"></script>
-	<script src="main.js"></script>
-	<script src="jquery-mousewheel-3.1.12/jquery.mousewheel.js"></script>
-	
-	
-	
+    <title>Книги</title>
+    <link rel="stylesheet" type="text/css" href="~/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92990b2768.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="jquery-mousewheel-3.1.12/jquery.mousewheel.js"></script>
+
+
+
 </head>
 <body>
-<div class="top">
+    <div class="top">
 
-	<div class="logo">
-		<img src="~/logo.png">
-		</div>
+        <div class="logo">
+            <img src="~/logo.png">
+        </div>
 
-	<div class="reg">
-                <button type="button" class="btn"><a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Login">Войти</a></button>
-                <button type="button" class="btn"><a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="SignUp">Зарегистрироваться</a></button>
-            </div>	
+        <div class="reg">
+            <button type="button" class="btn"><a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Login">Войти</a></button>
+            <button type="button" class="btn"><a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="SignUp">Зарегистрироваться</a></button>
+        </div>
 
 
 
-		<div class="menu">
-				<ul>
-					<li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
-					<li><i class="fas fa-book"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Books">Книги</a></li>
-					<li><i class="fas fa-paragraph"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Об издательстве</a></li>
-					<li><i class="fas fa-map-signs"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Where">Контакты</a></li>
-				</ul>
-		</div>
-</div>
-<div class="main">
-<div class="cont">
-			<section class="page section1">
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-			</section>
-
-			<section class="page section2">
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-			</section>
-
-			<section class="page section3">
-                <div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-			</section>
-
-			<section class="page section4">
-                <div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-				<div class="block2"><h1>1</h1></div>
-			</section>
-</div>
-</div>
+        <div class="menu">
+            <ul>
+                <li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
+                <li><i class="fas fa-book"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Books">Книги</a></li>
+                <li><i class="fas fa-paragraph"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Об издательстве</a></li>
+                <li><i class="fas fa-map-signs"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Where">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="cont">
+            @for (int section = 0; section < 4; section++)
+            {
+                <section class="page section1">
+                    @for (int div = 0; div < 6; div++)
+                    {
+                        <div class="block2" ><img src="@Model.Products[section*div].Image" height="400" width="200" /></div>
+                    }
+                </section>
+            }
+        </div>
+    </div>
 
 
 

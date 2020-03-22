@@ -41,7 +41,7 @@ namespace higher_school_of_hooyomics.Controllers
 
         public IActionResult Books()
         {
-            var model = new BooksViewModel() { Products = _JsonFileProductService.GetProducts() };
+            var model = new BooksViewModel() { Products = _JsonFileProductService.GetProducts().ToList() };
             return View(model);
         }
 
