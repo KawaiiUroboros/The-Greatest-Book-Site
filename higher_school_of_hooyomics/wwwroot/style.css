@@ -8,6 +8,15 @@
 {
     position: absolute;
     top: 28%;
+    padding-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.where_info
+{
+    
+    width: 84%;
+    
 }
 
 .top
@@ -59,11 +68,11 @@
     float: left;
     width: 24.8%;
     text-align: center;
-    background-color: #E0FFFF;
+    background-color: #FF0000;
 }
 
 .menu li:hover {
-    background: #17a2b8;
+    background: #FFFFFF;
 }
 
 .menu i
@@ -238,13 +247,13 @@
 .map
 {
     position: inherit;
-    margin: 5%;
     display: inline-block;
+    padding-left: 60%;
 }
 
 .adress
 {
     font-family: roboto;
-    margin: 5%;
     display: inline-block;
+    padding-left: 10%;
 }
