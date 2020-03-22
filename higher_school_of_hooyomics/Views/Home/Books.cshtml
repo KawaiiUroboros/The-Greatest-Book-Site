@@ -32,7 +32,9 @@
         </div>
 
 
-
+        <div>
+             
+        </div>
         <div class="menu">
             <ul>
                 <li><i class="fas fa-home"></i><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
@@ -46,7 +48,7 @@
         <div class="cont">
             @for (int section = 1; section <= 4; section++)
             {
-                <section class="page section1">
+                <section class="page section@(section)">
                     @for (int div = 1; div <= 6; div++)
                     {
                         <div class="block2" ><img src="@Model.Products[section-1+div].Image" /></div>
