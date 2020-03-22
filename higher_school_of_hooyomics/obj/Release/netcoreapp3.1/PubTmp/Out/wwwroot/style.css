@@ -1,0 +1,259 @@
+﻿*
+{
+    margin: 0;
+}
+
+
+.glav
+{
+    position: absolute;
+    top: 28%;
+    padding-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.where_info
+{
+    
+    width: 84%;
+    
+}
+
+.top
+{
+    position: fixed;
+    height: 28%;
+    width: 100%;
+    background-color: #f4f5f7;
+    z-index: 2;
+}
+
+.logo
+{
+    position: inherit;
+    left: 10%;
+    top: 5%;
+    display: inline-block;
+}
+
+.menu
+{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 50%;
+    height: 30%;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top:1%;
+    height: 100%;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 1%;
+    font-family: roboto;
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: inline-block;
+
+}
+
+
+.menu li {
+    border-right: 2px solid black;
+    position: inherit;
+    float: left;
+    width: 24.8%;
+    text-align: center;
+    background-color: #BC8F8F;
+}
+
+.menu li:hover {
+    background: #FFFFFF;
+}
+
+.menu i
+{
+    position: inherit;
+    margin: 1%;
+    display: inline-block;
+}
+
+.reg
+{
+    position: relative;
+    top: 25%;
+    left: 60%;
+}
+
+
+.btn
+{
+    position: inherit;
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    outline: none;
+    background: rgb(255, 0, 0) linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0) 80%);
+    box-shadow:
+            0 6px rgb(86,38,6),
+            0 3px 15px rgba(0,0,0,.4),
+            inset 0 1px rgba(255,255,255,.3),
+            inset 0 0 3px rgba(255,255,255,.5);
+    transition: .2s;
+    margin-left: 5%;
+
+}
+
+.btn:hover
+{
+    background: rgb(237,91,41) linear-gradient(rgb(226,69,31), rgb(197,91,41) 80%);
+    transform: scale(1.1, 1.1);
+}
+
+
+.btn:active {
+    background: rgb(120,63,25) linear-gradient(rgb(120,63,25) 20%, rgb(167,91,41));
+    box-shadow:
+            0 2px rgb(86,38,6),
+            0 1px 6px rgba(0,0,0,.4),
+            inset 0 1px rgba(255,255,255,.3),
+            inset 0 0 3px rgba(255,255,255,.5);
+    -webkit-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+
+.section1
+{
+
+    background: url(fon5.png);
+    background-size: 110%;
+}
+
+.cont img
+{
+    position: inherit;
+    width: 50%;
+}
+
+.cont h1
+{
+    color: #FAEBD7;
+    position: inherit;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section2
+{
+    background: url(fon5.png);
+    background-size: 110%;
+}
+
+.section3
+{
+    background: url(fon5.png);
+    background-size: 110%;
+}
+
+
+.section4
+{
+    background: url(fon5.png);
+    background-size: 110%;
+}
+
+
+.main
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: top 0.4s;
+    -o-transition: top 0.4s;
+    -ms-transition: top 0.4s;
+    -moz-transition: top 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition: top 0.4s;
+    transition: 0.4s;
+}
+
+.cont
+{
+    -webkit-transition: top 1s;
+    -o-transition: top 1s;
+    -ms-transition: top 1s;
+    -moz-transition: top 1s;
+    -moz-transition-duration: 1s;
+    transition: top 1s;
+    transition: 1s;
+    width: 100%;
+    position: inherit;
+    height: 100%;
+}
+
+.page
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.block1
+{
+    display: inline-block;
+    position: inherit;
+    width: 30%;
+    left: 10%;
+    margin-top: 20%;
+}
+
+
+.about
+{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: roboto;
+}
+
+.block2
+{
+    display: inline-block;
+    background-color: black;
+    position: inherit;
+    width: 20%;
+    left: 10%;
+    margin-top: 20%;
+}
+
+
+.map
+{
+    position: inherit;
+    display: inline-block;
+    padding-left: 60%;
+}
+
+.adress
+{
+    font-family: roboto;
+    display: inline-block;
+    padding-left: 10%;
+}

@@ -17,22 +17,21 @@ namespace higher_school_of_hooyomics.Services
 
         private string JsonFileName
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "products.json"); }
+            get { return Path.Combine(WebHostEnvironment.WebRootPath, "Data", "books.json"); }
         }
 
         public IEnumerable<Product> GetProducts()
         {
             using (var jsonFileReader = File.OpenText(JsonFileName))
             {
-            
 
-                var v =  JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
+
+                return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
                     new JsonSerializerOptions
                     {
                         PropertyNameCaseInsensitive = true
                     });
-                System.Console.WriteLine(v.First().Description);
-                return v;
+               
             }
         }
 
@@ -40,16 +39,16 @@ namespace higher_school_of_hooyomics.Services
         {
             var products = GetProducts();
 
-            if (products.First(x => x.Id == productId).Ratings == null)
-            {
-                products.First(x => x.Id == productId).Ratings = new int[] { rating };
-            }
-            else
-            {
-                var ratings = products.First(x => x.Id == productId).Ratings.ToList();
-                ratings.Add(rating);
-                products.First(x => x.Id == productId).Ratings = ratings.ToArray();
-            }
+            //if (products.First(x => x.Id == productId).Ratings == null)
+            //{
+            //    products.First(x => x.Id == productId).Ratings = new int[] { rating };
+            //}
+            //else
+            //{
+            //    var ratings = products.First(x => x.Id == productId).Ratings.ToList();
+            //    ratings.Add(rating);
+            //    products.First(x => x.Id == productId).Ratings = ratings.ToArray();
+            //}
 
             using (var outputStream = File.OpenWrite(JsonFileName))
             {
