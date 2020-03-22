@@ -45,7 +45,11 @@
             <e p="Contacts.cshtml" t="Include" />
             <e p="Contacts.cshtml.cs" t="Include" />
             <e p="Index.cshtml" t="Include" />
+            <e p="Login.cshtml" t="Include" />
+            <e p="Login.cshtml.cs" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
+            <e p="SignUp.cshtml" t="Include" />
+            <e p="SignUp.cshtml.cs" t="Include" />
             <e p="Where.cshtml" t="Include" />
             <e p="Where.cshtml.cs" t="Include" />
           </e>
@@ -74,6 +78,7 @@
           <e p="fon3.png" t="Include" />
           <e p="fon4.jpg" t="Include" />
           <e p="fon5.png" t="Include" />
+          <e p="index.css" t="Include" />
           <e p="jquery-mousewheel-3.1.12" t="Include">
             <e p=".gitignore" t="Include" />
             <e p=".jshintrc" t="Include" />
@@ -100,6 +105,7 @@
           <e p="js" t="Include" />
           <e p="logo.png" t="Include" />
           <e p="main.js" t="Include" />
+          <e p="signup.css" t="Include" />
           <e p="style.css" t="Include" />
         </e>
       </e>

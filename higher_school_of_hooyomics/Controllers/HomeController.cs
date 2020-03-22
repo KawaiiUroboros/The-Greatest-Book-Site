@@ -44,6 +44,16 @@ namespace higher_school_of_hooyomics.Controllers
             var model = new BookViewModel() { Products = _JsonFileProductService.GetProducts() };
             return View(model);
         }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult SignUp()
+        {
+            return View();
+        }
         
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
