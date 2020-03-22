@@ -22,8 +22,8 @@ namespace higher_school_of_hooyomics.Controllers
 
         public IActionResult Index()
         {
-            var model = new HomeViewModel() { Products = new List<Product>() { new Product() { Description = "dfg" } } }; //_JsonFileProductService.GetProducts() };
-            return View(model);
+            
+            return View();
         }
 
         public IActionResult Privacy()
@@ -41,7 +41,8 @@ namespace higher_school_of_hooyomics.Controllers
 
         public IActionResult Books()
         {
-            return View();
+            var model = new HomeViewModel() { Products = _JsonFileProductService.GetProducts() };
+            return View(model);
         }
         
 
