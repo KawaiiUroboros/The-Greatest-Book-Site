@@ -1,9 +1,9 @@
 body{
     font-family: 'Space Mono', monospace;
-    background: #ad5389;
-    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
-    background: linear-gradient(to right, #3c1053, #ad5389);
+    background: #FCAF67;
     color: white;
+    background: url(fon5.png);
+    background-size: 115%;
 }
 *:focus {
     outline: none;
