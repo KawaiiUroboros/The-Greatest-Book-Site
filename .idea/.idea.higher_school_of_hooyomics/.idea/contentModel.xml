@@ -9,13 +9,12 @@
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
           <e p="ITextAnalyzerController.cs" t="Include" />
-        </e>
-        <e p="Data" t="Include">
-          <e p="books.json" t="Include" />
+          <e p="ProductsController.cs" t="Include" />
         </e>
         <e p="higher_school_of_hooyomics.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="HomeViewModel.cs" t="Include" />
           <e p="Product.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -46,7 +45,6 @@
             <e p="Contacts.cshtml" t="Include" />
             <e p="Contacts.cshtml.cs" t="Include" />
             <e p="Index.cshtml" t="Include" />
-            <e p="Index.cshtml.cs" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
             <e p="Where.cshtml" t="Include" />
             <e p="Where.cshtml.cs" t="Include" />
@@ -65,6 +63,10 @@
           <e p="6.jpg" t="Include" />
           <e p="7.jpg" t="Include" />
           <e p="8.jpg" t="Include" />
+          <e p="Data" t="Include">
+            <e p="books.json" t="Include" />
+            <e p="products.json" t="Include" />
+          </e>
           <e p="favicon.ico" t="Include" />
           <e p="fon-1.jpg" t="Include" />
           <e p="fon1.jpg" t="Include" />

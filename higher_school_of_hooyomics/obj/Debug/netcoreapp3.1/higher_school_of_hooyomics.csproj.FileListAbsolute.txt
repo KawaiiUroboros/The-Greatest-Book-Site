@@ -34,7 +34,6 @@ C:/Users/agehao/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_sc
 C:/Users/agehao/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/obj/Debug/netcoreapp3.1/higher_school_of_hooyomics.csprojAssemblyReference.cache
 /Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/bin/Debug/netcoreapp3.1/Data/books.json
 /Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/bin/Debug/netcoreapp3.1/higher_school_of_hooyomics
 /Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/bin/Debug/netcoreapp3.1/higher_school_of_hooyomics.deps.json

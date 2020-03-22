@@ -26,8 +26,15 @@ using higher_school_of_hooyomics.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/Views/_ViewImports.cshtml"
+using higher_school_of_hooyomics.Views;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea", @"/Views/Home/Contacts.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be47025069d978ebb3692394a27fb2e17baab443", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"96bf01f74c544f3281709507b5c7803328a98f64", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Contacts : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,9 +76,9 @@ using higher_school_of_hooyomics.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\n<html lang=\"en\">\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea7206", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea7450", async() => {
                 WriteLiteral("\n\t<script src=\'http://code.jquery.com/jquery-2.1.1.min.js\'></script>\n\n\t<title>Об издательстве</title>\n\t");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea7570", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea7814", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -108,9 +115,9 @@ using higher_school_of_hooyomics.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea9806", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea10050", async() => {
                 WriteLiteral("\n<div class=\"top\">\n\n\t<div class=\"logo\">\n\t");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea10109", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea10354", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -124,7 +131,7 @@ using higher_school_of_hooyomics.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n\t</div>\n\n\t<div class=\"reg\">\n\t\t<button type=\"button\" class=\"btn\">Войти</button>\n\t\t<button type=\"button\" class=\"btn\">Зарегистрироваться</button>\n\t</div>\n\n\n\t<div class=\"menu\">\n\t\t<ul>\n\t\t\t<li><i class=\"fas fa-home\"></i>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea11432", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea11677", async() => {
                     WriteLiteral("Главная");
                 }
                 );
@@ -145,7 +152,7 @@ using higher_school_of_hooyomics.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("</li>\n\t\t\t<li><i class=\"fas fa-book\"></i>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea13183", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea13428", async() => {
                     WriteLiteral("Книги");
                 }
                 );
@@ -166,7 +173,7 @@ using higher_school_of_hooyomics.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("</li>\n\t\t\t<li><i class=\"fas fa-paragraph\"></i>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea14937", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea15182", async() => {
                     WriteLiteral("Об издательстве");
                 }
                 );
@@ -187,7 +194,7 @@ using higher_school_of_hooyomics.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("</li>\n\t\t\t<li><i class=\"fas fa-map-signs\"></i>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea16701", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "786faa0b2e7b4976b7a2abc2c4e0704d18ce2fea16946", async() => {
                     WriteLiteral("Контакты");
                 }
                 );

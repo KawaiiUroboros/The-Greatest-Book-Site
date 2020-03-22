@@ -26,8 +26,15 @@ using higher_school_of_hooyomics.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/artemsnatenkov/higher_school_of_hooyomics-higher_school_of_hooyomics-/higher_school_of_hooyomics/Views/_ViewImports.cshtml"
+using higher_school_of_hooyomics.Views;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be47025069d978ebb3692394a27fb2e17baab443", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"96bf01f74c544f3281709507b5c7803328a98f64", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998
