@@ -5,3 +5,13 @@ The main idea is to implement functionality using analysis of the description an
 
 # Demo video
 Youtube https://www.youtube.com/watch?v=7Vyg8NjOTA8&feature=youtu.be
+
+# Tech Stack
+Mirosoft Azure Cognitive Services
+
+ASP.NET
+
+C# (programming language)
+
+HTML+CSS
+
